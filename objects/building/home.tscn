@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://cdmjia0e3drft"]
+
+[ext_resource type="Texture2D" uid="uid://b68bmeacbs3il" path="res://assets/the-fantasy/Art/Buildings/House_Hay_1.png" id="1_8njso"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8njso"]
+size = Vector2(75, 74)
+
+[node name="Home" type="StaticBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_8njso")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-1.5, 7)
+shape = SubResource("RectangleShape2D_8njso")
