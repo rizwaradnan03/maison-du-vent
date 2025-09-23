@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://kefcq1wnngyb"]
+
+[ext_resource type="Texture2D" uid="uid://dp448o2apsca1" path="res://assets/the-fantasy/Art/Trees and Bushes/Tree_Emerald_1.png" id="1_tkgst"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_tkgst"]
+size = Vector2(36, 32)
+
+[node name="Tree1" type="StaticBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_tkgst")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-1, 9)
+shape = SubResource("RectangleShape2D_tkgst")

@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://b2yml3ctuhf23"]
+
+[ext_resource type="Texture2D" uid="uid://cvrnajcb34vs5" path="res://assets/the-fantasy/Art/Rocks/Rock_Brown_4.png" id="1_esbms"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_c0tvg"]
+size = Vector2(27, 26)
+
+[node name="Rock3" type="StaticBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_esbms")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-0.5, 0)
+shape = SubResource("RectangleShape2D_c0tvg")

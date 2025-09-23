@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://itfswixpdukp"]
+
+[ext_resource type="Texture2D" uid="uid://dsjcwqyo10vfq" path="res://assets/the-fantasy/Art/Trees and Bushes/Bush_Emerald_1.png" id="1_48jvn"]
+
+[node name="Bush1" type="StaticBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_48jvn")

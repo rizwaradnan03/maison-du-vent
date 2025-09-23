@@ -85,6 +85,6 @@ public partial class Player : CharacterBody2D
 	{
 		Move((float)delta);
 
-		GD.Print("Sigma", utils.Json.PrintNumb());
+		// GD.Print("Sigma", utils.Json.PrintNumb());
 	}
 }
